@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="no-js ie6"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8"><![endif]-->
+<!--[if IE 9 ]><html class="no-js ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    
+      
+        <title>MiniWalls Docs</title>
+      
+      
+      
+      
+    
+    <meta property="og:url" content="None">
+    <meta property="og:title" content="MiniWalls Docs">
+    <meta property="og:image" content="None/./">
+    <meta name="apple-mobile-web-app-title" content="MiniWalls Docs">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon-e565ddfa3b.ico">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon-e565ddfa3b.ico">
+    <style>
+      @font-face {
+      	font-family: 'Icon';
+      	src: url('./assets/fonts/icon.eot?52m981');
+      	src: url('./assets/fonts/icon.eot?#iefix52m981')
+               format('embedded-opentype'),
+      		   url('./assets/fonts/icon.woff?52m981')
+               format('woff'),
+      		   url('./assets/fonts/icon.ttf?52m981')
+               format('truetype'),
+      		   url('./assets/fonts/icon.svg?52m981#icon')
+               format('svg');
+      	font-weight: normal;
+      	font-style: normal;
+      }
+    </style>
+    <link rel="stylesheet" href="./assets/stylesheets/application-a422ff04cc.css">
+    
+      <link rel="stylesheet" href="./assets/stylesheets/palettes-05ab2406df.css">
+    
+    
+      
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Mono">
+      <style>
+        body, input {
+          font-family: 'Roboto', Helvetica, Arial, sans-serif;
+        }
+        pre, code {
+          font-family: 'Roboto Mono', 'Courier New', 'Courier', monospace;
+        }
+      </style>
+    
+    
+      <link rel="stylesheet" href="./css/extra.css">
+    
+    <script src="./assets/javascripts/modernizr-4ab42b99fd.js"></script>
+    
+  </head>
+  
+  
+  
+  <body class="palette-primary-indigo palette-accent-light-blue">
+    
+    <div class="backdrop">
+      <div class="backdrop-paper"></div>
+    </div>
+    <input class="toggle" type="checkbox" id="toggle-drawer">
+    <input class="toggle" type="checkbox" id="toggle-search">
+    <label class="toggle-button overlay" for="toggle-drawer"></label>
+    <header class="header">
+      <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        
+          <span class="path">
+            
+          </span>
+        
+        MiniWalls Docs
+      </div>
+    </div>
+    
+    
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+    </header>
+    <main class="main">
+      
+      <div class="drawer">
+        <nav aria-label="Navigation">
+  
+  <a href="/" class="project">
+    <div class="banner">
+      
+      <div class="name">
+        <strong>
+          MiniWalls Docs
+          <span class="version">
+            
+          </span>
+        </strong>
+        
+      </div>
+    </div>
+  </a>
+  <div class="scrollable">
+    <div class="wrapper">
+      
+      <div class="toc">
+        <ul>
+          
+            
+  <li>
+    <a class="current" title="Home" href=".">
+      Home
+    </a>
+    
+      
+        
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Installation" href="#installation">
+                Installation
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Configuration files" href="#configuration-files">
+                Configuration files
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="General Config" href="#general-config">
+                General Config
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Arenas" href="#arenas">
+                Arenas
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Storage" href="#storage">
+                Storage
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Teams" href="#teams">
+                Teams
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Kits" href="#kits">
+                Kits
+              </a>
+            </li>
+          
+        </ul>
+      
+    
+  </li>
+
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+      </div>
+      <article class="article">
+        <div class="wrapper">
+          
+          <h1 id="spigot-mini-walls-plugin-documentation">Spigot Mini Walls Plugin - Documentation</h1>
+<h2 id="installation">Installation</h2>
+<h3 id="prerequisites">Prerequisites</h3>
+<ul>
+<li>Java 8 or newer</li>
+<li>Spigot server with Minecraft 1.8.*, 1.9.* or 1.10</li>
+<li><a href="http://dev.bukkit.org/bukkit-plugins/vault/" target="_blank">Vault</a></li>
+<li><a href="https://www.spigotmc.org/resources/protocollib.1997/" target="_blank">ProtocolLib</a></li>
+<li><em>An economy plugin that hooks with Vault. You only need it when you want to enable economy (players receive currency for kills, can buy kits for in-game currency etc)</em></li>
+</ul>
+<p>If you have BungeeCord or Lilypad server it’s recommended to create separate server to run MiniWalls. If you can’t create separate server for MiniWalls it’s not recommended to run other games on this server as they may conflict with MiniWalls.</p>
+<h3 id="installing-plugin">Installing plugin</h3>
+<ul>
+<li>Download the plugin from Spigot and extract it (it's a zip archive)</li>
+<li>Copy plugin jar (for example MiniWalls-1.0.jar or whatever the plugin's version is) to your server plugins directory</li>
+<li>Start server</li>
+<li>Look for any errors in console. If there are any you probably don't met all the prerequisites. If you can't figure out why you're having errors and can't fix them contact me by PM on Spigot and I will help you out</li>
+<li>Stop server</li>
+<li>Copy map directories <code>map-forest</code> and <code>map-volcano</code> to the plugin directory <code>plugins/MiniWalls</code>. Do this only if you want to use premade maps.</li>
+<li>Configure the config files (tutorial below) (Optional: if you have copied map directories and your server mets all prerequisites you are ready to use the plugin)</li>
+<li>Start server and have fun!</li>
+</ul>
+<h2 id="configuration-files">Configuration files</h2>
+<p>With MiniWalls come quite a few configuration files. They are located in plugin's main directory <code>plugins/MiniWalls</code>.</p>
+<p>There are 4 files in total - <code>config.json</code>, <code>kits.json</code>, <code>maps.json</code> and <code>en.properties</code>. Files ending with .json use JSON syntax and en.properties uses Java .properties syntax.</p>
+<h3 id="json">JSON</h3>
+<ul>
+<li><a href="http://www.w3schools.com/json/" target="_blank">Introduction and Syntax</a></li>
+<li><a href="http://jsonlint.com/" target="_blank">Online validator (check if your file follows syntax)</a></li>
+</ul>
+<h3 id="properties">.properties</h3>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/.properties" target="_blank">Introduction and Syntax</a></li>
+</ul>
+<p><strong>Data types</strong></p>
+<p>In JSON configuration files there is a data type for every configuration value. That means that each item/key needs a specific value. For example <code>currencyPerKill</code> in economy config needs a value which is integer, but <code>enabled</code> in the same config needs a boolean value (true or false). Here is a table of all data types currently in use in config files. </p>
+<table>
+<thead>
+<tr>
+<th>Data type</th>
+<th>Value</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>boolean</td>
+<td>true or false</td>
+<td>true</td>
+</tr>
+<tr>
+<td>string</td>
+<td>a sequence of characters</td>
+<td>"hey that's a string"</td>
+</tr>
+<tr>
+<td>integer</td>
+<td>an integer</td>
+<td>15</td>
+</tr>
+<tr>
+<td>number</td>
+<td>an integer or floating point number</td>
+<td>7.25</td>
+</tr>
+<tr>
+<td>duration</td>
+<td>duration in milliseconds</td>
+<td>15000</td>
+</tr>
+<tr>
+<td>material</td>
+<td>minecraft material name string,  <a href="https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html" target="_blank">click here</a> for list</td>
+<td>"diamond_pickaxe"</td>
+</tr>
+<tr>
+<td>chat color</td>
+<td>minecraft color string, <a href="http://minecraft.gamepedia.com/Formatting_codes" target="_blank">click here</a> for list</td>
+<td>"&amp;c"</td>
+</tr>
+<tr>
+<td>itemstack</td>
+<td>Minecraft item as JSON object containing <code>material</code>,  <code>amount</code>, <code>data</code> and <code>unbreakable</code></td>
+<td><code>{"material": "wool","data": 14, "amount": 64}</code></td>
+</tr>
+<tr>
+<td>itemstack.material</td>
+<td>material of the itemstack</td>
+<td>see above - material</td>
+</tr>
+<tr>
+<td>itemstack.amount</td>
+<td>integer size of itemstack (optional, default 1)</td>
+<td>see above - integer</td>
+</tr>
+<tr>
+<td>itemstack.data</td>
+<td>integer data/durability of itemstack (optional, default 0)</td>
+<td>see above - integer</td>
+</tr>
+<tr>
+<td>itemstack.unbreakable</td>
+<td>boolean value whether itemstack is unbreakable (optional, default false)</td>
+<td>see above - boolean</td>
+</tr>
+<tr>
+<td>location</td>
+<td>JSON object containing x, y and z coordinates</td>
+<td><code>{"x": 147, "y": 64.5, "z": -1024}</code></td>
+</tr>
+<tr>
+<td>location.x, location.y, location.z,</td>
+<td>number value of the coordinate</td>
+<td>see above - number</td>
+</tr>
+<tr>
+<td>cuboid</td>
+<td>JSON object containing bounds of cuboid</td>
+<td><code>{"loc1": {"x": 15, "y": 0, "z": -25.5}, "loc2": {"x": 768, "y": 25, "z": 400}}</code></td>
+</tr>
+<tr>
+<td>cuboid.loc1, cuboid.loc2</td>
+<td>location of bound</td>
+<td>see above - location</td>
+</tr>
+</tbody>
+</table>
+<h2 id="general-config">General Config</h2>
+<p>General config is in <code>config.json</code> file and contains most of the settings of the MiniWalls plugin. Here is a table which explains what each setting there does.</p>
+<table>
+<thead>
+<tr>
+<th>key</th>
+<th>value type</th>
+<th>default</th>
+<th>explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>general.locale</td>
+<td>string</td>
+<td>en.properties</td>
+<td>file where plugin looks for translations; has to be located in plugin directory <code>plugins/MiniWalls</code></td>
+</tr>
+<tr>
+<td>general.balanceTeams</td>
+<td>boolean</td>
+<td>true</td>
+<td>if true players can't join teams that are bigger than their current team</td>
+</tr>
+<tr>
+<td>general.showServerJoinMessages</td>
+<td>boolean</td>
+<td>false</td>
+<td>if false players are not informed when someone joins the server</td>
+</tr>
+<tr>
+<td>economy.enabled</td>
+<td>boolean</td>
+<td>true</td>
+<td>if true players receive currency for certain activities and can buy kits;</td>
+</tr>
+<tr>
+<td>economy.currencyPerKill</td>
+<td>integer</td>
+<td>10</td>
+<td>the amount of currency player receives when (s)he gets a kill</td>
+</tr>
+<tr>
+<td>economy.currencyPerAssist</td>
+<td>integer</td>
+<td>3</td>
+<td>the amount of currency player receives when (s)he gets a kill assist</td>
+</tr>
+<tr>
+<td>economy.currencyPerWin</td>
+<td>integer</td>
+<td>50</td>
+<td>the amount of currency player receives when (s)he wins a game</td>
+</tr>
+<tr>
+<td>economy.currencyPerGame</td>
+<td>integer</td>
+<td>15</td>
+<td>the amount of currency player receives when (s)he plays a game</td>
+</tr>
+<tr>
+<td>bungeeMode.enabled</td>
+<td>boolean</td>
+<td>false</td>
+<td>if true plugin attempts to send player to <code>bungeeMode.arena</code> after joining and to <code>bungeeMode.hub</code> after player quits.</td>
+</tr>
+<tr>
+<td>bungeeMode.arena</td>
+<td>string</td>
+<td>MiniWalls-1</td>
+<td>arena name where player is sent to after joining the server</td>
+</tr>
+<tr>
+<td>bungeeMode.hub</td>
+<td>string</td>
+<td>hub</td>
+<td>server name where player is sent to after quitting</td>
+</tr>
+<tr>
+<td>data.storageType</td>
+<td>string</td>
+<td>file</td>
+<td>how player data (stats, unlocked kits etc) are stored; <code>file</code> or <code>mysql</code></td>
+</tr>
+<tr>
+<td>data.mysql.host</td>
+<td>string</td>
+<td>localhost</td>
+<td>mysql host</td>
+</tr>
+<tr>
+<td>data.mysql.port</td>
+<td>integer</td>
+<td>3306</td>
+<td>mysql port</td>
+</tr>
+<tr>
+<td>data.mysql.username</td>
+<td>string</td>
+<td>root</td>
+<td>mysql username</td>
+</tr>
+<tr>
+<td>data.mysql.password</td>
+<td>string</td>
+<td></td>
+<td>mysql password</td>
+</tr>
+<tr>
+<td>data.mysql.db</td>
+<td>string</td>
+<td>miniwalls</td>
+<td>mysql database</td>
+</tr>
+<tr>
+<td>data.file.directory</td>
+<td>string</td>
+<td>db</td>
+<td>directory where player data is stored when <code>storageType</code> is <code>file</code>; it's relative to plugin directory, so for default it's <code>plugins/MiniWalls/db</code></td>
+</tr>
+<tr>
+<td>arena</td>
+<td>arena config</td>
+<td></td>
+<td><a href="#arenas">See Arenas</a></td>
+</tr>
+<tr>
+<td>teams</td>
+<td>array of teams</td>
+<td></td>
+<td>See more information about that in Team</td>
+</tr>
+<tr>
+<td>arenas</td>
+<td>array of arenas</td>
+<td></td>
+<td><a href="#arenas">See Arenas</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="arenas">Arenas</h2>
+<p>Each arena is a Mini Walls game to where player can connect. Every arena has it's own players, world etc. Arenas are configured in main config file <code>config.json</code>. They are set in an array <code>arenas</code>. </p>
+<p>Every JSON object in <code>arenas</code> contains a setting <code>name</code>. Data type of this setting is <code>string</code>.</p>
+<p><code>name</code> is the only setting you need to set for every arena. For example arena JSON object can look like <code>{"name": "MyAwesomeArena"}</code></p>
+<p><strong>Settings</strong></p>
+<p>By default, settings for arena are taken from default config that can be configured in the same file (<code>config.json</code>). Default arena config is a object named <code>arena</code>. It needs to contain all of the settings in table below.</p>
+<p>You can also set custom settings for each arena by adding a new object <code>config</code> to arena object. This object can contain settings of the following table. Custom settings override default settings.</p>
+<p>For example, in example below, arena <code>MiniWalls-2</code> always has a <code>startDelay</code> 33333, no matter what it's in default config. However, this only applies to arena <code>MiniWalls-2</code>, all other arenas that don't have <code>startDelay</code>, have a default value.</p>
+<p><code>{
+    "name": "MiniWalls-2",
+    "config": {
+        "startDelay": 33333
+    }
+}</code></p>
+<p><strong>Arena Settings</strong></p>
+<table>
+<thead>
+<tr>
+<th>key</th>
+<th>value type</th>
+<th>default</th>
+<th>explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>startDelay</td>
+<td>duration</td>
+<td>45000</td>
+<td>duration after game starts when arena has atleast players specified in <code>minPlayers</code></td>
+</tr>
+<tr>
+<td>serverFullStartDelay</td>
+<td>duration</td>
+<td>10000</td>
+<td>duration after game starts when arena is full</td>
+</tr>
+<tr>
+<td>wallsTime</td>
+<td>duration</td>
+<td>15000</td>
+<td>duration after walls drop</td>
+</tr>
+<tr>
+<td>deathmatchTime</td>
+<td>duration</td>
+<td>180000</td>
+<td>duration after deathmatch begins since start of the game</td>
+</tr>
+<tr>
+<td>shrinkTime</td>
+<td>duration</td>
+<td>200000</td>
+<td>duration after map starts to shrink since start of the game</td>
+</tr>
+<tr>
+<td>maxTime</td>
+<td>duration</td>
+<td>300000</td>
+<td>max duration that game can last</td>
+</tr>
+<tr>
+<td>minPlayers</td>
+<td>integer</td>
+<td>8</td>
+<td>minimum amount of players with what game can begin</td>
+</tr>
+<tr>
+<td>maxPlayers</td>
+<td>integer</td>
+<td>16</td>
+<td>maximum amount of players</td>
+</tr>
+<tr>
+<td>maxSpectators</td>
+<td>integer</td>
+<td>24</td>
+<td>maximum amount of spectators</td>
+</tr>
+<tr>
+<td>maps</td>
+<td>array of strings</td>
+<td>forest, volcano</td>
+<td>names of maps that are in arena</td>
+</tr>
+</tbody>
+</table>
+<h2 id="storage">Storage</h2>
+<p>By default Mini Walls stores players' data (stats and unlocked kits) in directory <code>plugins/MiniWalls/db</code>. You can change the storage type in general config (see above - General config). NB: If you change the storage type, data from previous type isn't migrated to new one. It means that you lose all the data when you change storage type.</p>
+<h2 id="teams">Teams</h2>
+<p>Teams are configured in <code>config.json</code> file. They are set in an array <code>teams</code> that contains team JSON objects. Below is explanation of the team JSON object.</p>
+<table>
+<thead>
+<tr>
+<th>key</th>
+<th>value type</th>
+<th>explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>string</td>
+<td>name of the team; this needs to match the wither name in map config (<a href="#maps">See Maps</a>)</td>
+</tr>
+<tr>
+<td>displayName</td>
+<td>string</td>
+<td>name that is displayed to players</td>
+</tr>
+<tr>
+<td>color</td>
+<td>chat color</td>
+<td>color of the team; in that color is sometimes the <code>displayName</code>; on that depends the armor and wool color</td>
+</tr>
+</tbody>
+</table>
+<h2 id="kits">Kits</h2>
+<p>All Mini Walls players have a kit. Each kit is sort of a "custom skill". With every kit come items that player gets every time he or she spawns or continuously. Kits are configured in <code>kits.json</code> file. That files contains a array of kit JSON objects. Here is a specification of kit JSON item.</p>
+<table>
+<thead>
+<tr>
+<th>key</th>
+<th>value type</th>
+<th>explanation</th>
+<th>default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>string</td>
+<td>kit name</td>
+<td></td>
+</tr>
+<tr>
+<td>displayName</td>
+<td>string</td>
+<td>name that is displayed to players</td>
+<td></td>
+</tr>
+<tr>
+<td>default</td>
+<td>boolean</td>
+<td>if true this kit is equipped when player joins the arena</td>
+<td>false</td>
+</tr>
+<tr>
+<td>price</td>
+<td>integer</td>
+<td>price of this kit, if bigger than 0 players need to buy it using in-game currency in order to use it</td>
+<td>0</td>
+</tr>
+<tr>
+<td>permission</td>
+<td>string</td>
+<td>permission players need to use the kit</td>
+<td><em>none</em></td>
+</tr>
+<tr>
+<td>item</td>
+<td>material</td>
+<td>material of item that is shown in inventory kit selector</td>
+<td></td>
+</tr>
+<tr>
+<td>items</td>
+<td>array of <code>kititem</code>s</td>
+<td>list of items that are supplied to player</td>
+<td></td>
+</tr>
+<tr>
+<td>kititem.supplyType</td>
+<td>string</td>
+<td>when this item is supplied, <code>once</code> when it's supplied on spawn, <code>armor</code> when it's supplied as armor on spawn, <code>continuous</code> if item is supplied after delay</td>
+<td></td>
+</tr>
+<tr>
+<td>kititem.item</td>
+<td>itemstack</td>
+<td>minecraft item that is supplied</td>
+<td></td>
+</tr>
+<tr>
+<td>kititem.delay</td>
+<td>duration</td>
+<td>if <code>supplyType</code> is <code>continuous</code>, delay between giving item to player</td>
+<td></td>
+</tr>
+<tr>
+<td>kititem.maxAmount</td>
+<td>integer</td>
+<td>if <code>supplyType</code> is <code>continuous</code>, amount that player can maximally have in inventory, use -1 to set no limit</td>
+<td>-1</td>
+</tr>
+</tbody>
+</table>
+          <aside class="copyright" role="note">
+            
+            Documentation built with
+            <a href="http://www.mkdocs.org" target="_blank">MkDocs</a>
+            using the
+            <a href="http://squidfunk.github.io/mkdocs-material/" target="_blank">
+              Material
+            </a>
+            theme.
+          </aside>
+          
+            <footer class="footer">
+              
+            </footer>
+          
+        </div>
+      </article>
+      <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+          <div class="wrapper">
+            <div class="meta"></div>
+            <div class="list"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      var base_url = '.';
+      var repo_id  = '';
+    </script>
+    <script src="./assets/javascripts/application-997097ee0c.js"></script>
+    
+    
+  </body>
+</html>
