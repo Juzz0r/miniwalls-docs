@@ -206,6 +206,18 @@
               </a>
             </li>
           
+            <li class="anchor">
+              <a title="Commands" href="#commands">
+                Commands
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Permissions" href="#permissions">
+                Permissions
+              </a>
+            </li>
+          
         </ul>
       
     
@@ -729,7 +741,7 @@
 <tr>
 <td>withers</td>
 <td>object containing team <code>name</code> as key</td>
-<td>spawn points for withers, every key in that array has to match team's <code>name</code></td>
+<td>spawn points for withers, every key in that objecr has to match team's <code>name</code></td>
 </tr>
 <tr>
 <td>walls</td>
@@ -745,6 +757,58 @@
 </div>
 <h2 id="language">Language</h2>
 <p>You can change almost all messages Mini Walls sends to players. By default messages are in <code>en.properties</code>, however this can be changed in main config file (<a href="#general-config">see general config</a>).</p>
+<h2 id="commands">Commands</h2>
+<table>
+<thead>
+<tr>
+<th>command</th>
+<th>explanation</th>
+<th>permission</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/mw join [arena]</td>
+<td>Join an arena or open arena joining GUI</td>
+<td>-</td>
+</tr>
+<tr>
+<td>/mw leave</td>
+<td>Leave from arena</td>
+<td>-</td>
+</tr>
+<tr>
+<td>/mw arena [player]</td>
+<td>See the arena of specified player. If not set, shows sender's arena</td>
+<td>-</td>
+</tr>
+<tr>
+<td>/mw start [arena]</td>
+<td>Starts the game in specified arena. If not set, starts game in sender's arena</td>
+<td>walls.admin.start</td>
+</tr>
+<tr>
+<td>/mw stop [arena] [winner team]</td>
+<td>Stops the game in specified arena with specified winner. If arena is not set, sender's arena is used. If winner team is not set, biggest team is used.</td>
+<td>walls.admin.stop</td>
+</tr>
+</tbody>
+</table>
+<h2 id="permissions">Permissions</h2>
+<table>
+<thead>
+<tr>
+<th>permission</th>
+<th>explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>walls.join-full-game</td>
+<td>let's player join an arena even if it's full</td>
+</tr>
+</tbody>
+</table>
           <aside class="copyright" role="note">
             
             Documentation built with
