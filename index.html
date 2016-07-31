@@ -207,6 +207,12 @@
             </li>
           
             <li class="anchor">
+              <a title="Signs" href="#signs">
+                Signs
+              </a>
+            </li>
+          
+            <li class="anchor">
               <a title="Commands" href="#commands">
                 Commands
               </a>
@@ -390,6 +396,12 @@
 <td>boolean</td>
 <td>false</td>
 <td>if false players are not informed when someone joins the server</td>
+</tr>
+<tr>
+<td>general.signs</td>
+<td>boolean</td>
+<td>false</td>
+<td>whether signs are enabled (see below: <a href="#signs">Signs</a>)</td>
 </tr>
 <tr>
 <td>economy.enabled</td>
@@ -757,6 +769,32 @@
 </div>
 <h2 id="language">Language</h2>
 <p>You can change almost all messages Mini Walls sends to players. By default messages are in <code>en.properties</code>, however this can be changed in main config file (<a href="#general-config">see general config</a>).</p>
+<h2 id="signs">Signs</h2>
+<p>You can create signs for arenas that can be used to join the arena.</p>
+<p>Here is a example of a sign</p>
+<p><img alt="Sign Example" src="./img/sign-example.jpg" /></p>
+<p>As you can see, </p>
+<ul>
+<li>the first line shows arena's name</li>
+<li>the second shows arena's state, for example Recruiting or In Game (Recruiting = Waiting for Players)</li>
+<li>the third shows player count in arena; it's green when there is room in arena and arena is in lobby</li>
+<li>the fourth shows arena's map</li>
+</ul>
+<h3 id="creating-a-sign">Creating a sign</h3>
+<p>Creating such sign is quite simple. All you need to do is set <code>signs</code> to <code>true</code> in <a href="#general-config">general config</a> and put down a sign with following format:</p>
+<ul>
+<li>[MW]</li>
+<li>Arena name <em>(for example MiniWalls-1)</em></li>
+<li><em>(empty)</em></li>
+<li><em>(empty)</em></li>
+</ul>
+<p>Here is a example:</p>
+<p><img alt="Creating a sign example" src="./img/create-sign-example.jpg" /></p>
+<p><em>The <code>&gt;</code> and <code>&lt;</code> aren't actually in the sign, they show active line in Minecraft Sign Editor</em></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You need to have a permission to create a sign. <a href="#permissions">See Permissions</a></p>
+</div>
 <h2 id="commands">Commands</h2>
 <table>
 <thead>
@@ -805,7 +843,11 @@
 <tbody>
 <tr>
 <td>walls.join-full-game</td>
-<td>let's player join an arena even if it's full</td>
+<td>lets player join an arena even if it's full</td>
+</tr>
+<tr>
+<td>walls.admin.create-sign</td>
+<td>lets player create signes</td>
 </tr>
 </tbody>
 </table>
