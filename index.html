@@ -1,281 +1,599 @@
+
+
+
+
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="no-js ie6"><![endif]-->
-<!--[if IE 7 ]><html class="no-js ie7"><![endif]-->
-<!--[if IE 8 ]><html class="no-js ie8"><![endif]-->
-<!--[if IE 9 ]><html class="no-js ie9"><![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="en" class="no-js">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="./assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.5, mkdocs-material-2.9.4">
+    
     
       
         <title>Mini Walls Docs</title>
       
+    
+    
+      <link rel="stylesheet" href="./assets/stylesheets/application.451f80e5.css">
+      
+        <link rel="stylesheet" href="./assets/stylesheets/application-palette.22915126.css">
       
       
+        
+        
+        <meta name="theme-color" content="#3f51b5">
       
     
-    <meta property="og:url" content="None">
-    <meta property="og:title" content="Mini Walls Docs">
-    <meta property="og:image" content="None/./">
-    <meta name="apple-mobile-web-app-title" content="Mini Walls Docs">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+      <script src="./assets/javascripts/modernizr.1aa3b519.js"></script>
     
     
-    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon-e565ddfa3b.ico">
-    <link rel="icon" type="image/x-icon" href="./assets/images/favicon-e565ddfa3b.ico">
-    <style>
-      @font-face {
-      	font-family: 'Icon';
-      	src: url('./assets/fonts/icon.eot?52m981');
-      	src: url('./assets/fonts/icon.eot?#iefix52m981')
-               format('embedded-opentype'),
-      		   url('./assets/fonts/icon.woff?52m981')
-               format('woff'),
-      		   url('./assets/fonts/icon.ttf?52m981')
-               format('truetype'),
-      		   url('./assets/fonts/icon.svg?52m981#icon')
-               format('svg');
-      	font-weight: normal;
-      	font-style: normal;
-      }
-    </style>
-    <link rel="stylesheet" href="./assets/stylesheets/application-a422ff04cc.css">
-    
-      <link rel="stylesheet" href="./assets/stylesheets/palettes-05ab2406df.css">
-    
-    
+      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
       
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
-      
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Mono">
-      <style>
-        body, input {
-          font-family: 'Roboto', Helvetica, Arial, sans-serif;
-        }
-        pre, code {
-          font-family: 'Roboto Mono', 'Courier New', 'Courier', monospace;
-        }
-      </style>
     
+    <link rel="stylesheet" href="./assets/fonts/material-icons.css">
     
-      <link rel="stylesheet" href="./css/extra.css">
-    
-    <script src="./assets/javascripts/modernizr-4ab42b99fd.js"></script>
     
   </head>
   
-  
-  
-  <body class="palette-primary-indigo palette-accent-light-blue">
-    
-    <div class="backdrop">
-      <div class="backdrop-paper"></div>
-    </div>
-    <input class="toggle" type="checkbox" id="toggle-drawer">
-    <input class="toggle" type="checkbox" id="toggle-search">
-    <label class="toggle-button overlay" for="toggle-drawer"></label>
-    <header class="header">
-      <nav aria-label="Header">
-  <div class="bar default">
-    <div class="button button-menu" role="button" aria-label="Menu">
-      <label class="toggle-button icon icon-menu" for="toggle-drawer">
-        <span></span>
-      </label>
-    </div>
-    <div class="stretch">
-      <div class="title">
-        
-          <span class="path">
-            
-          </span>
-        
-        Mini Walls Docs
-      </div>
-    </div>
     
     
-    <div class="button button-search" role="button" aria-label="Search">
-      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
-    </div>
-  </div>
-  <div class="bar search">
-    <div class="button button-close" role="button" aria-label="Close">
-      <label class="toggle-button icon icon-back" for="toggle-search"></label>
-    </div>
-    <div class="stretch">
-      <div class="field">
-        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
-      </div>
-    </div>
-    <div class="button button-reset" role="button" aria-label="Search">
-      <button class="toggle-button icon icon-close" id="reset-search"></button>
-    </div>
-  </div>
-</nav>
-    </header>
-    <main class="main">
-      
-      <div class="drawer">
-        <nav aria-label="Navigation">
+    <body dir="ltr" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
-  <a href="/" class="project">
-    <div class="banner">
-      
-      <div class="name">
-        <strong>
-          Mini Walls Docs
-          <span class="version">
-            
-          </span>
-        </strong>
+    <svg class="md-svg">
+      <defs>
         
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#installation" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="." title="Mini Walls Docs" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
       </div>
-    </div>
-  </a>
-  <div class="scrollable">
-    <div class="wrapper">
-      
-      <div class="toc">
-        <ul>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
             
-  <li>
-    <a class="current" title="Home" href=".">
+              <span class="md-header-nav__topic">
+                Mini Walls Docs
+              </span>
+              <span class="md-header-nav__topic">
+                Home
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="." title="Mini Walls Docs" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Mini Walls Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Home
+      </label>
+    
+    <a href="." title="Home" class="md-nav__link md-nav__link--active">
       Home
     </a>
     
       
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" title="Installation" class="md-nav__link">
+    Installation
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
         
+          <li class="md-nav__item">
+  <a href="#prerequisites" title="Prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-plugin" title="Installing plugin" class="md-nav__link">
+    Installing plugin
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration-files" title="Configuration files" class="md-nav__link">
+    Configuration files
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#json" title="JSON" class="md-nav__link">
+    JSON
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#properties" title=".properties" class="md-nav__link">
+    .properties
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#general-config" title="General Config" class="md-nav__link">
+    General Config
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arenas" title="Arenas" class="md-nav__link">
+    Arenas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#storage" title="Storage" class="md-nav__link">
+    Storage
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teams" title="Teams" class="md-nav__link">
+    Teams
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kits" title="Kits" class="md-nav__link">
+    Kits
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#maps" title="Maps" class="md-nav__link">
+    Maps
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuring-a-new-map-in-game" title="Configuring a new map in-game" class="md-nav__link">
+    Configuring a new map in-game
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#language" title="Language" class="md-nav__link">
+    Language
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#signs" title="Signs" class="md-nav__link">
+    Signs
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-sign" title="Creating a sign" class="md-nav__link">
+    Creating a sign
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commands" title="Commands" class="md-nav__link">
+    Commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#permissions" title="Permissions" class="md-nav__link">
+    Permissions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#updating-to-minecraft-113" title="Updating to Minecraft 1.13" class="md-nav__link">
+    Updating to Minecraft 1.13
+  </a>
+  
+</li>
       
       
-        <ul>
-          
-            <li class="anchor">
-              <a title="Installation" href="#installation">
-                Installation
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Configuration files" href="#configuration-files">
-                Configuration files
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="General Config" href="#general-config">
-                General Config
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Arenas" href="#arenas">
-                Arenas
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Storage" href="#storage">
-                Storage
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Teams" href="#teams">
-                Teams
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Kits" href="#kits">
-                Kits
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Maps" href="#maps">
-                Maps
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Language" href="#language">
-                Language
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Signs" href="#signs">
-                Signs
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Commands" href="#commands">
-                Commands
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Permissions" href="#permissions">
-                Permissions
-              </a>
-            </li>
-          
-        </ul>
       
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
-          
-        </ul>
-        
-      </div>
-    </div>
-  </div>
+    
+  </ul>
 </nav>
-      </div>
-      <article class="article">
-        <div class="wrapper">
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" title="Installation" class="md-nav__link">
+    Installation
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites" title="Prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-plugin" title="Installing plugin" class="md-nav__link">
+    Installing plugin
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration-files" title="Configuration files" class="md-nav__link">
+    Configuration files
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#json" title="JSON" class="md-nav__link">
+    JSON
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#properties" title=".properties" class="md-nav__link">
+    .properties
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#general-config" title="General Config" class="md-nav__link">
+    General Config
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arenas" title="Arenas" class="md-nav__link">
+    Arenas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#storage" title="Storage" class="md-nav__link">
+    Storage
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teams" title="Teams" class="md-nav__link">
+    Teams
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kits" title="Kits" class="md-nav__link">
+    Kits
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#maps" title="Maps" class="md-nav__link">
+    Maps
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuring-a-new-map-in-game" title="Configuring a new map in-game" class="md-nav__link">
+    Configuring a new map in-game
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#language" title="Language" class="md-nav__link">
+    Language
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#signs" title="Signs" class="md-nav__link">
+    Signs
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-sign" title="Creating a sign" class="md-nav__link">
+    Creating a sign
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commands" title="Commands" class="md-nav__link">
+    Commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#permissions" title="Permissions" class="md-nav__link">
+    Permissions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#updating-to-minecraft-113" title="Updating to Minecraft 1.13" class="md-nav__link">
+    Updating to Minecraft 1.13
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
-          <h1 id="spigot-mini-walls-plugin-documentation">Spigot Mini Walls Plugin - Documentation</h1>
-<h2 id="installation">Installation</h2>
-<h3 id="prerequisites">Prerequisites</h3>
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Home</h1>
+                
+                <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
+<h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Java 8 or newer</li>
-<li>Spigot server with Minecraft 1.8.*, 1.9.* or 1.10</li>
-<li><a href="http://dev.bukkit.org/bukkit-plugins/vault/" target="_blank">Vault</a></li>
-<li><a href="https://www.spigotmc.org/resources/protocollib.1997/" target="_blank">ProtocolLib</a></li>
+<li>Spigot server with Minecraft 1.8, 1.9, 1.10, 1.11, 1.12 and 1.13</li>
+<li><a href="http://dev.bukkit.org/bukkit-plugins/vault/">Vault</a></li>
+<li><a href="https://www.spigotmc.org/resources/protocollib.1997/">ProtocolLib</a></li>
 <li><em>An economy plugin that hooks with Vault. You only need it when you want to enable economy (players receive currency for kills, can buy kits for in-game currency etc)</em></li>
 </ul>
-<p>If you have BungeeCord or Lilypad server it’s recommended to create separate server to run MiniWalls. If you can’t create separate server for MiniWalls it’s not recommended to run other games on this server as they may conflict with MiniWalls.</p>
-<h3 id="installing-plugin">Installing plugin</h3>
+<p>If you have BungeeCord or Lilypad server it’s recommended to create a separate server to run MiniWalls. If you can’t create a separate server for MiniWalls it’s not recommended to run other games on this server as they may conflict with MiniWalls.</p>
+<h3 id="installing-plugin">Installing plugin<a class="headerlink" href="#installing-plugin" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Download the plugin from Spigot</li>
 <li>Copy plugin jar (for example MiniWalls.jar or whatever the plugin's version is) to your server plugins directory</li>
 <li>Start server</li>
-<li>Look for any errors in console. If there are any you probably don't met all the prerequisites. If you can't figure out why you're having errors and can't fix them contact me by PM on Spigot and I will help you out. <strong>Ignore</strong> errors starting like this: <code>java.lang.RuntimeException: java.io.FileNotFoundException: Source 'plugins\MiniWalls\map-forest' does not exist</code>, these are there because you haven't setup the plugin yet.</li>
+<li>Look for any errors in console. If there are any your server probably doesn't meet all the prerequisites. If you can't figure out why you're having errors and can't fix them contact me by PM on Spigot and I will help you out.</li>
 <li>Stop server</li>
-<li>Download and copy map directories <code>map-forest</code> and <code>map-volcano</code> to the plugin directory <code>plugins/MiniWalls</code>. Do this only if you want to use premade maps. <a href="https://www.dropbox.com/s/1jsggjomn6hhqrv/Maps.zip?dl=0" target="_blank">Click here to download!</a></li>
-<li>Configure the config files (tutorial below) (This step is optional. If you have copied map directories and your server mets all prerequisites you are ready to use the plugin)</li>
-<li>Start server and have fun!</li>
+<li>Configure the config files (tutorial below) (This step is optional. If your server meets all prerequisites you are ready to use the plugin)</li>
+<li>Start the server and have fun!</li>
 </ul>
-<h2 id="configuration-files">Configuration files</h2>
+<h2 id="configuration-files">Configuration files<a class="headerlink" href="#configuration-files" title="Permanent link">&para;</a></h2>
 <p>With MiniWalls come quite a few configuration files. They are located in plugin's main directory <code>plugins/MiniWalls</code>.</p>
 <p>There are 4 files in total - <code>config.json</code>, <code>kits.json</code>, <code>maps.json</code> and <code>en.properties</code>. Files ending with .json use JSON syntax and <code>en.properties</code> uses Java .properties syntax.</p>
-<h3 id="json">JSON</h3>
+<h3 id="json">JSON<a class="headerlink" href="#json" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="http://www.w3schools.com/json/" target="_blank">Introduction and Syntax</a></li>
-<li><a href="http://jsonlint.com/" target="_blank">Online validator (check if your file follows syntax)</a></li>
+<li><a href="http://www.w3schools.com/json/">Introduction and Syntax</a></li>
+<li><a href="http://jsonlint.com/">Online validator (check if your file follows syntax)</a></li>
 </ul>
-<h3 id="properties">.properties</h3>
+<h3 id="properties">.properties<a class="headerlink" href="#properties" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/.properties" target="_blank">Introduction and Syntax</a></li>
+<li><a href="https://en.wikipedia.org/wiki/.properties">Introduction and Syntax</a></li>
 </ul>
 <p><strong>Data types</strong></p>
-<p>In JSON configuration files there is a data type for every configuration value. That means that each item/key needs a specific value. For example <code>currencyPerKill</code> in economy config needs a value which is integer, but <code>enabled</code> in the same config needs a boolean value (true or false). Here is a table of all data types currently in use in config files. </p>
+<p>In JSON configuration files there is a data type for every configuration value. That means that each item/key needs a specific value. For example <code>currencyPerKill</code> in economy config needs a value which is an integer, but <code>enabled</code> in the same config needs a boolean value (true or false). Here is a table of all data types currently in use in config files.</p>
 <table>
 <thead>
 <tr>
@@ -312,17 +630,17 @@
 </tr>
 <tr>
 <td>material</td>
-<td>minecraft material name string,  <a href="https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html" target="_blank">click here</a> for list</td>
+<td>minecraft material name string, <a href="https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html">click here</a> for 1.13 materials, <a href="http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Material.html">here</a> for 1.8-1.12.</td>
 <td>"diamond_pickaxe"</td>
 </tr>
 <tr>
 <td>chat color</td>
-<td>minecraft color string, <a href="http://minecraft.gamepedia.com/Formatting_codes" target="_blank">click here</a> for list</td>
+<td>minecraft color string, <a href="http://minecraft.gamepedia.com/Formatting_codes">click here</a> for list</td>
 <td>"&amp;c"</td>
 </tr>
 <tr>
 <td>itemstack</td>
-<td>Minecraft item as JSON object containing <code>material</code>,  <code>amount</code>, <code>data</code> and <code>unbreakable</code></td>
+<td>Minecraft item as JSON object containing <code>material</code>, <code>amount</code>, <code>data</code> and <code>unbreakable</code></td>
 <td><code>{"material": "wool","data": 14, "amount": 64}</code></td>
 </tr>
 <tr>
@@ -367,7 +685,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="general-config">General Config</h2>
+<h2 id="general-config">General Config<a class="headerlink" href="#general-config" title="Permanent link">&para;</a></h2>
 <p>General config is in <code>config.json</code> file and contains most of the settings of the MiniWalls plugin. Here is a table which explains what each setting there does.</p>
 <table>
 <thead>
@@ -406,32 +724,32 @@
 <tr>
 <td>economy.enabled</td>
 <td>boolean</td>
-<td>true</td>
+<td>false</td>
 <td>if true players receive currency for certain activities and can buy kits;</td>
 </tr>
 <tr>
 <td>economy.currencyPerKill</td>
 <td>integer</td>
 <td>10</td>
-<td>the amount of currency player receives when (s)he gets a kill</td>
+<td>the amount of currency player receives when they get a kill</td>
 </tr>
 <tr>
 <td>economy.currencyPerAssist</td>
 <td>integer</td>
 <td>3</td>
-<td>the amount of currency player receives when (s)he gets a kill assist</td>
+<td>the amount of currency player receives when they get a kill assist</td>
 </tr>
 <tr>
 <td>economy.currencyPerWin</td>
 <td>integer</td>
 <td>50</td>
-<td>the amount of currency player receives when (s)he wins a game</td>
+<td>the amount of currency player receives when they win a game</td>
 </tr>
 <tr>
 <td>economy.currencyPerGame</td>
 <td>integer</td>
 <td>15</td>
-<td>the amount of currency player receives when (s)he plays a game</td>
+<td>the amount of currency player receives when they finish a game</td>
 </tr>
 <tr>
 <td>bungeeMode.enabled</td>
@@ -503,7 +821,7 @@
 <td>teams</td>
 <td>array of teams</td>
 <td></td>
-<td>See more information about that in Team</td>
+<td>See more information about that in <a href="#teams">Teams</a></td>
 </tr>
 <tr>
 <td>arenas</td>
@@ -513,20 +831,15 @@
 </tr>
 </tbody>
 </table>
-<h2 id="arenas">Arenas</h2>
-<p>Each arena is a Mini Walls game to where player can connect. Every arena has it's own players, world etc. Arenas are configured in main config file <code>config.json</code>. They are set in an array <code>arenas</code>. </p>
-<p>Every JSON object in <code>arenas</code> contains a setting <code>name</code>. Data type of this setting is <code>string</code>.</p>
+<h2 id="arenas">Arenas<a class="headerlink" href="#arenas" title="Permanent link">&para;</a></h2>
+<p>Each arena is a Mini Walls game to where players can connect. Every arena has its own players, world etc. Arenas are configured in main config file <code>config.json</code>. They are set in an array <code>arenas</code>.</p>
+<p>Every JSON object in <code>arenas</code> contains a setting <code>name</code>. The data type of this setting is <code>string</code>.</p>
 <p><code>name</code> is the only setting you need to set for every arena. For example arena JSON object can look like <code>{"name": "MyAwesomeArena"}</code></p>
 <p><strong>Settings</strong></p>
-<p>By default, settings for arena are taken from default config that can be configured in the same file (<code>config.json</code>). Default arena config is a object named <code>arena</code>. It needs to contain all of the settings in table below.</p>
+<p>By default, settings for the arena are taken from default config that can be configured in the same file (<code>config.json</code>). Default arena config is an object named <code>arena</code>. It needs to contain all of the settings in the table below.</p>
 <p>You can also set custom settings for each arena by adding a new object <code>config</code> to arena object. This object can contain settings of the following table. Custom settings override default settings.</p>
-<p>For example, in example below, arena <code>MiniWalls-2</code> always has a <code>startDelay</code> 33333, no matter what it's in default config. However, this only applies to arena <code>MiniWalls-2</code>, all other arenas that don't have <code>startDelay</code>, have a default value.</p>
-<p><code>{
-    "name": "MiniWalls-2",
-    "config": {
-        "startDelay": 33333
-    }
-}</code></p>
+<p>For example, in an example below, arena <code>MiniWalls-2</code> always has a <code>startDelay</code> 33333, no matter what it's in default config. However, this only applies to arena <code>MiniWalls-2</code>, all other arenas that don't have <code>startDelay</code>, have a default value.</p>
+<p><code>{ "name": "MiniWalls-2", "config": { "startDelay": 33333 } }</code></p>
 <p><strong>Arena Settings</strong></p>
 <table>
 <thead>
@@ -600,14 +913,14 @@
 </tr>
 </tbody>
 </table>
-<h2 id="storage">Storage</h2>
-<p>By default Mini Walls stores players' data (stats and unlocked kits) in directory <code>plugins/MiniWalls/db</code>. You can change the storage type in general config (see above - General config). </p>
+<h2 id="storage">Storage<a class="headerlink" href="#storage" title="Permanent link">&para;</a></h2>
+<p>By default Mini Walls stores players' data (stats and unlocked kits) in directory <code>plugins/MiniWalls/db</code>. You can change the storage type in the general config (see above - General config).</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>If you change the storage type, data from previous type isn't migrated to new one. It means that you lose all the data when you change storage type.</p>
+<p>If you change the storage type, data from the previous type isn't migrated to a new one. It means that you lose all the data when you change the storage type.</p>
 </div>
-<h2 id="teams">Teams</h2>
-<p>Teams are configured in <code>config.json</code> file. They are set in an array <code>teams</code> that contains team JSON objects. Below is explanation of the team JSON object.</p>
+<h2 id="teams">Teams<a class="headerlink" href="#teams" title="Permanent link">&para;</a></h2>
+<p>Teams are configured in <code>config.json</code> file. They are set in an array <code>teams</code> that contains team JSON objects. Below is an explanation of the team JSON object.</p>
 <table>
 <thead>
 <tr>
@@ -634,8 +947,8 @@
 </tr>
 </tbody>
 </table>
-<h2 id="kits">Kits</h2>
-<p>All Mini Walls players have a kit. Each kit is sort of a "custom skill". With every kit come items that player gets every time he or she spawns or continuously. Kits are configured in <code>kits.json</code> file. That files contains a array of kit JSON objects. Here is a specification of kit JSON item.</p>
+<h2 id="kits">Kits<a class="headerlink" href="#kits" title="Permanent link">&para;</a></h2>
+<p>All Mini Walls players have a kit. Each kit is sort of a "custom skill". With every kit come items that player gets every time he or she spawns or continuously. Kits are configured in <code>kits.json</code> file. That files contains an array of kit JSON objects. Here is a specification of kit JSON item.</p>
 <table>
 <thead>
 <tr>
@@ -714,7 +1027,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="maps">Maps</h2>
+<h2 id="maps">Maps<a class="headerlink" href="#maps" title="Permanent link">&para;</a></h2>
 <p>Every Mini Walls game takes place in a map. Maps are configured in <code>maps.json</code> file. That file contains an array of map JSON objects. Here is a specification for this object.</p>
 <table>
 <thead>
@@ -738,22 +1051,22 @@
 <tr>
 <td>border</td>
 <td>cuboid</td>
-<td>area where game takes place; players can't go outside of it;</td>
+<td>area where the game takes place; players can't go outside of it;</td>
 </tr>
 <tr>
 <td>lobbyArea</td>
 <td>cuboid</td>
-<td>area of map that is lobby; it's a place where players are before game starts;  players can't go outside of it; it's removed when game starts</td>
+<td>area of the map that is lobby; it's a place where players are before the game starts; players can't go outside of it; it's removed when the game starts</td>
 </tr>
 <tr>
 <td>lobbySpawn</td>
 <td>location</td>
-<td>where players are teleported when they join an arena that's in lobby.</td>
+<td>where players are teleported when they join an arena</td>
 </tr>
 <tr>
 <td>withers</td>
 <td>object containing team <code>name</code> as key</td>
-<td>spawn points for withers, every key in that objecr has to match team's <code>name</code></td>
+<td>spawn points for withers, every key in that object has to match team's <code>name</code></td>
 </tr>
 <tr>
 <td>walls</td>
@@ -762,40 +1075,96 @@
 </tr>
 </tbody>
 </table>
-<p>When adding a new map you have to copy it's world to <code>plugins/MiniWalls</code> and name it like <code>map-mapname</code>. For example if the <code>name</code> of your map is <code>dust2</code>, the world folder has to be named <code>map-dust2</code>.</p>
+<h3 id="configuring-a-new-map-in-game">Configuring a new map in-game<a class="headerlink" href="#configuring-a-new-map-in-game" title="Permanent link">&para;</a></h3>
+<p><strong>Building your map</strong></p>
+<p>The first thing you need to do is actually build your map. You can do it in Minecraft singleplayer or in any server you have access to. Be sure that your map has the following elements that Mini Walls needs:</p>
+<ol>
+<li>
+<p>walls that separate the teams.</p>
+</li>
+<li>
+<p>place for each wither (there are 4 withers by default)</p>
+</li>
+<li>
+<p>a lobby area that players spawn in before the game begins; it disappears when the game begins</p>
+</li>
+</ol>
+<p><strong>Copying the files</strong></p>
+<p>The next step is to copy the map that you have built to the Mini Walls server. Copy the whole folder and place it in <code>plugins/MiniWalls</code> directory.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>When creating a custom map, don't forget to set the spawnpoint. World spawnpoint is a location where spectators are teleported when they join the game. Spawnpoint can be set in vanilla with command <code>/setworldspawn</code>.</p>
+<p>This name is not shown to players and is used only when configuring the plugin.</p>
 </div>
-<h2 id="language">Language</h2>
-<p>You can change almost all messages Mini Walls sends to players. By default messages are in <code>en.properties</code>, however this can be changed in main config file (<a href="#general-config">see general config</a>).</p>
-<h2 id="signs">Signs</h2>
+<p><strong>Starting the setup</strong></p>
+<p>If you haven't already, start your Mini Walls server and join the game. Make sure that you have <code>walls.admin.map-setup</code> permission.</p>
+<p>Use <code>/mw ms create yourMapName</code> command in-game to start the setup. Replace <em>yourMapName</em> with the name that you set earlier, for example if your directory name was map-sandcastle, the command should <code>/mw ms create sandcastle</code>.</p>
+<p>After that you should get a message on how to teleport to the setup world. Use the given command to teleport to setup world. Usually it is something like <code>/mw ms tp MwSetup-mapName-1</code>.</p>
+<p><strong>Setting the display name</strong></p>
+<p>Display name is the name of the map that is shown to players. To change it, use the following command while in setup world: <code>/mw ms display_name MapName</code>.</p>
+<p><strong>Setting the lobby spawn</strong></p>
+<p>Players that join the game are automatically teleported to lobby spawn location. This location can be changed using <code>/mw ms lobby_spawn</code> command. This command changes the lobby spawn location to your current location.</p>
+<p><strong>Setting the lobby area</strong></p>
+<p>The area that players can be in before the game starts, can be set using command <code>/mw ms lobby_area</code>. After entering the command, left click the boundaries of the lobby area. Selecting the area works the same as WorldEdit's, but it doesn't matter which item you click with. More information on WorldEdit selection can be found at <a href="http://wiki.sk89q.com/wiki/WorldEdit/Selection#Selecting_cuboids">http://wiki.sk89q.com/wiki/WorldEdit/Selection#Selecting_cuboids</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>After the game starts, all blocks in lobby area are replaced with air.</p>
+</div>
+<p><strong>Setting the spectator spawn</strong></p>
+<p>When players die or join during the game, they are first teleported to the spectator spawn location. This location can be changed with <code>/mw ms spectator_spawn</code>. This command changes the spectator spawn location to your current location.</p>
+<p><strong>Setting the border</strong></p>
+<p>Players can't move outside the map border. The area that players can be in, can be set using command <code>/mw ms border</code>. It uses the same selection method as previously explained lobby area command.</p>
+<p><strong>Adding walls</strong></p>
+<p>To add new walls, use <code>/mw ms wall add</code> command and select the boundaries of the wall. You can see the list of set walls with <code>/mw ms wall list</code> and remove walls with <code>/mw ms wall remove wallIndex</code>, where wall index is the index that is shown in list command.</p>
+<p><strong>Setting wither locations</strong></p>
+<p>To set wither's location, use <code>/mw ms wither someTeam</code> command. It sets the spawn location of <em>someTeam</em>'s wither to your current location. For example, to set the spawnpoint of the green team, use <code>/mw ms wither green</code>.</p>
+<p><strong>Finishing the setup</strong></p>
+<p>To finish the setup, use command <code>/mw ms finish</code>. After that, you're ready to use your new map.</p>
+<p>To add it to default map pool, make the following change in your
+config.json file.
+Replace</p>
+<div class="codehilite"><pre><span></span>    <span class="s2">&quot;maps&quot;</span><span class="err">:</span> <span class="p">[</span>
+        <span class="s2">&quot;forest&quot;</span><span class="p">,</span> <span class="s2">&quot;volcano&quot;</span>
+    <span class="p">]</span>
+</pre></div>
+
+
+<p>with</p>
+<div class="codehilite"><pre><span></span>    <span class="s2">&quot;maps&quot;</span><span class="err">:</span> <span class="p">[</span>
+        <span class="s2">&quot;forest&quot;</span><span class="p">,</span> <span class="s2">&quot;volcano&quot;</span><span class="p">,</span> <span class="s2">&quot;sandcastle&quot;</span>
+    <span class="p">]</span>
+</pre></div>
+
+
+<p><em>sandcastle</em> is the name that you set at the beginning to the folder.</p>
+<p>You need to restart the server for changes to apply.</p>
+<h2 id="language">Language<a class="headerlink" href="#language" title="Permanent link">&para;</a></h2>
+<p>You can change almost all messages Mini Walls sends to players. By default messages are in <code>en.properties</code>, however, this can be changed in the main config file (<a href="#general-config">see general config</a>).</p>
+<h2 id="signs">Signs<a class="headerlink" href="#signs" title="Permanent link">&para;</a></h2>
 <p>You can create signs for arenas that can be used to join the arena.</p>
-<p>Here is a example of a sign</p>
+<p>Here is an example of a sign</p>
 <p><img alt="Sign Example" src="./img/sign-example.jpg" /></p>
-<p>As you can see, </p>
+<p>As you can see,</p>
 <ul>
-<li>the first line shows arena's name</li>
+<li>the first line shows the arena's name</li>
 <li>the second shows arena's state, for example Recruiting or In Game (Recruiting = Waiting for Players)</li>
-<li>the third shows player count in arena; it's green when there is room in arena and arena is in lobby</li>
+<li>the third shows player count in the arena; it's green when there is room in arena and arena is in lobby</li>
 <li>the fourth shows arena's map</li>
 </ul>
-<h3 id="creating-a-sign">Creating a sign</h3>
-<p>Creating such sign is quite simple. All you need to do is set <code>signs</code> to <code>true</code> in <a href="#general-config">general config</a> and put down a sign with following format:</p>
+<h3 id="creating-a-sign">Creating a sign<a class="headerlink" href="#creating-a-sign" title="Permanent link">&para;</a></h3>
+<p>Creating such a sign is quite simple. All you need to do is set <code>signs</code> to <code>true</code> in <a href="#general-config">general config</a> and put down a sign with the following format:</p>
 <ul>
 <li>[MW]</li>
 <li>Arena name <em>(for example MiniWalls-1)</em></li>
 <li><em>(empty)</em></li>
 <li><em>(empty)</em></li>
 </ul>
-<p>Here is a example:</p>
+<p>Here is an example:</p>
 <p><img alt="Creating a sign example" src="./img/create-sign-example.jpg" /></p>
-<p><em>The <code>&gt;</code> and <code>&lt;</code> aren't actually in the sign, they show active line in Minecraft Sign Editor</em></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>You need to have a permission to create a sign. <a href="#permissions">See Permissions</a></p>
 </div>
-<h2 id="commands">Commands</h2>
+<h2 id="commands">Commands<a class="headerlink" href="#commands" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -822,22 +1191,27 @@
 </tr>
 <tr>
 <td>/mw start [arena]</td>
-<td>Starts the game in specified arena. If not set, starts game in sender's arena</td>
+<td>Starts the game in the specified arena. If not set, starts the game in sender's arena</td>
 <td>walls.admin.start</td>
 </tr>
 <tr>
 <td>/mw stop [arena] [winner team]</td>
-<td>Stops the game in specified arena with specified winner. If arena is not set, sender's arena is used. If winner team is not set, biggest team is used.</td>
+<td>Stops the game in a specified arena with the specified winner. If an arena is not set, sender's arena is used. If winner team is not set, the biggest team is used.</td>
 <td>walls.admin.stop</td>
 </tr>
 <tr>
-<td>/mw team &lt;team> [player]</td>
+<td>/mw team  [player]</td>
 <td>Changes team for given player or sender's if not set.</td>
 <td>walls.admin.team</td>
 </tr>
+<tr>
+<td>/mw ms</td>
+<td>Configure new maps in game. (See <a href="#configuring-a-new-map-in-game">Configuring a new map in-game</a>)</td>
+<td>walls.admin.map-setup</td>
+</tr>
 </tbody>
 </table>
-<h2 id="permissions">Permissions</h2>
+<h2 id="permissions">Permissions<a class="headerlink" href="#permissions" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -852,42 +1226,126 @@
 </tr>
 <tr>
 <td>walls.admin.create-sign</td>
-<td>lets player create signes</td>
+<td>lets player create signs</td>
+</tr>
+<tr>
+<td>walls.admin.map-setup</td>
+<td>allows player to create new maps in game</td>
 </tr>
 </tbody>
 </table>
-          <aside class="copyright" role="note">
-            
-            Documentation built with
-            <a href="http://www.mkdocs.org" target="_blank">MkDocs</a>
-            using the
-            <a href="http://squidfunk.github.io/mkdocs-material/" target="_blank">
-              Material
-            </a>
-            theme.
-          </aside>
-          
-            <footer class="footer">
+<h2 id="updating-to-minecraft-113">Updating to Minecraft 1.13<a class="headerlink" href="#updating-to-minecraft-113" title="Permanent link">&para;</a></h2>
+<p>Mini Walls versions 1.2.1 and higher support Minecraft 1.13. To update, do the following:</p>
+<ol>
+<li>Download the plugin jar for 1.13 Spigot and put it in your plugins directory. Note that there is a separate jar for 1.13 and 1.8-1.12. You can find the download for 1.13 on plugin's Spigot page.</li>
+<li>Since chunk storage changed since 1.12, you need to update world data for maps made in 1.12 or lower version. To do that, copy each of your maps to your Minecraft saves directory and open the world once in singleplayer with Minecraft 1.13. After you've done that, move the worlds back to the plugin directory. <strong>You don't need to update default maps volcano and forest!</strong></li>
+<li>Delete default maps (directories <code>map-volcano</code> and <code>map-forest</code>). The plugin automatically downloads them for 1.13 when the server starts.</li>
+<li>
+<p>Some item names were changed in Minecraft 1.13. If you have some of those in your kits configuration, update them. <strong>If you are using default config, delete <code>kits.json</code> file and a new configuration for 1.13 is generated when server starts.</strong> </p>
+<p>Here is a summary of the changes.</p>
+<table>
+<thead>
+<tr>
+<th>old name (1.12 and lower)</th>
+<th>new name (1.13)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>wool</td>
+<td>white_wool</td>
+</tr>
+<tr>
+<td>wood_pickaxe</td>
+<td>wooden_pickaxe</td>
+</tr>
+<tr>
+<td>wood_spade</td>
+<td>wooden_shovel</td>
+</tr>
+<tr>
+<td>wood_axe</td>
+<td>wooden_axe</td>
+</tr>
+<tr>
+<td>wood_sword</td>
+<td>wooden_sword</td>
+</tr>
+<tr>
+<td>gold_spade</td>
+<td>golden_shovel</td>
+</tr>
+<tr>
+<td>gold_axe</td>
+<td>golden_axe</td>
+</tr>
+<tr>
+<td>gold_sword</td>
+<td>golden_sword</td>
+</tr>
+<tr>
+<td>gold_helmet</td>
+<td>golden_helmet</td>
+</tr>
+<tr>
+<td>gold_chestplate</td>
+<td>golden_chestplate</td>
+</tr>
+<tr>
+<td>gold_leggings</td>
+<td>golden_leggings</td>
+</tr>
+<tr>
+<td>gold_boots</td>
+<td>golden_boots</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+                
+                  
+                
               
-            </footer>
-          
-        </div>
-      </article>
-      <div class="results" role="status" aria-live="polite">
-        <div class="scrollable">
-          <div class="wrapper">
-            <div class="meta"></div>
-            <div class="list"></div>
+              
+                
+
+
+              
+            </article>
           </div>
         </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
       </div>
-    </main>
-    <script>
-      var base_url = '.';
-      var repo_id  = '';
-    </script>
-    <script src="./assets/javascripts/application-997097ee0c.js"></script>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
     
+      <script src="./assets/javascripts/application.30f6b8b1.js"></script>
+      
+      <script>app.initialize({version:"0.17.5",url:{base:"."}})</script>
+      
+    
+    
+      
     
   </body>
 </html>
